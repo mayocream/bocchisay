@@ -1,8 +1,9 @@
 [package]
 name = "bocchisay"
-description = "Today your terminal, tomorrow the world."
+description = "Today your terminal, tomorrow the world!"
 version = "0.1.0"
 edition = "2021"
 license-file = "LICENSE"
 
 [dependencies]
+clap = { version = "4.5.27", features = ["derive"] }
